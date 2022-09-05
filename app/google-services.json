@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "247162230533",
+    "project_id": "sigma-wallet-e5f42",
+    "storage_bucket": "sigma-wallet-e5f42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247162230533:android:1aec7f8a78b72b4ea8c96c",
+        "android_client_info": {
+          "package_name": "com.empire.sente"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247162230533-aa3q11897qd7c65es27utfrrijrpk011.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.empire.sente",
+            "certificate_hash": "1735f8117935cb445e8ecbd8ef8de9a61f9c85ba"
+          }
+        },
+        {
+          "client_id": "247162230533-e5qfjk3d4rn6pq1on4krpmmfqorbg92b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiKZmRS8QDhO7NugFVVb3EdgzPG8RW1mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247162230533-e5qfjk3d4rn6pq1on4krpmmfqorbg92b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">E-Wallet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="name">Name</string>
+    <string name="next">Next</string>
+    <string name="do_not_have_an_account_create_account">Do not have an account? Create account</string>
+    <string name="confirm">Confirm</string>
+    <string name="first_name">First Name</string>
+    <string name="second_name">Last Name</string>
+    <string name="month">Month</string>
+    <string name="day">Day</string>
+    <string name="year">Year</string>
+    <string name="gender">Gender</string>
+    <string name="basic_information">Basic information</string>
+    <string name="enter_your_names_birthday_and_gender">Enter your names, birthday and gender</string>
+    <string name="country_code_uganda">+256</string>
+    <string name="verify">Verify</string>
+    <string name="a_confirmation_code_will_be_sent_to_this_phone_number_charges_may_apply">A confirmation code will be sent to this phone number. Charges may apply</string>
+    <string name="confirmation_code">Confirmation Code</string>
 </resources>
