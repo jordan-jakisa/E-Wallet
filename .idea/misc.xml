@@ -4,6 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Jordan/AndroidStudioProjects/EWallet/app/src/main/res/layout/activity_main.xml" value="0.2682291666666667" />
+        <entry key="..\:/Users/Jordan/AndroidStudioProjects/EWallet/app/src/main/res/layout/fragment_bio_info.xml" value="0.2791666666666667" />
+        <entry key="..\:/Users/Jordan/AndroidStudioProjects/EWallet/app/src/main/res/layout/fragment_confirm_login.xml" value="0.29322916666666665" />
+        <entry key="..\:/Users/Jordan/AndroidStudioProjects/EWallet/app/src/main/res/layout/fragment_dashboard.xml" value="0.29322916666666665" />
+        <entry key="..\:/Users/Jordan/AndroidStudioProjects/EWallet/app/src/main/res/layout/fragment_home.xml" value="0.26875" />
+        <entry key="..\:/Users/Jordan/AndroidStudioProjects/EWallet/app/src/main/res/layout/fragment_login.xml" value="0.25925925925925924" />
+        <entry key="..\:/Users/Jordan/AndroidStudioProjects/EWallet/app/src/main/res/layout/fragment_phone.xml" value="0.29322916666666665" />
+        <entry key="..\:/Users/Jordan/AndroidStudioProjects/EWallet/app/src/main/res/layout/fragment_register.xml" value="0.29322916666666665" />
       </map>
     </option>
   </component>
