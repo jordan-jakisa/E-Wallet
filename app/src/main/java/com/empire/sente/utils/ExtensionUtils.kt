@@ -26,6 +26,10 @@ fun Context.toast(text: CharSequence, duration: Int = Toast.LENGTH_LONG) =
 
 fun String.removeSpaces() = this.filter { !it.isWhitespace() }
 
+fun View.setVisibility(isVisible: Boolean) {
+    if (isVisible) this.visibility = View.VISIBLE else this.visibility = View.GONE
+}
+
 
 fun Activity.requestAudioPermission() = ActivityCompat.requestPermissions(
     this,

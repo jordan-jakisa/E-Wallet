@@ -46,15 +46,11 @@
             android:name="verificationId"
             app:argType="string" />
         <argument
-            android:name="phoneNumber"
-            app:argType="string" />
-        <argument
             android:name="token"
             app:argType="com.google.firebase.auth.PhoneAuthProvider$ForceResendingToken" />
         <argument
-            android:name="user"
-            app:argType="com.empire.sente.userAuthentication.models.User"
-            app:nullable="true" />
+            android:name="phoneNumber"
+            app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/dashboardFragment"

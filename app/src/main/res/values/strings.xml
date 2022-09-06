@@ -17,6 +17,6 @@
     <string name="enter_your_names_birthday_and_gender">Enter your names, birthday and gender</string>
     <string name="country_code_uganda">+256</string>
     <string name="verify">Verify</string>
-    <string name="a_confirmation_code_will_be_sent_to_this_phone_number_charges_may_apply">A confirmation code will be sent to this phone number. Charges may apply</string>
+    <string name="a_confirmation_code_will_be_sent_to_this_phone_number_charges_may_apply">We will send an SMS with a confirmation code to your phone number</string>
     <string name="confirmation_code">Confirmation Code</string>
 </resources>

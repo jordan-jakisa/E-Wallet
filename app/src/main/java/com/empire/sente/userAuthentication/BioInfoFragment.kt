@@ -1,24 +1,18 @@
 package com.empire.sente.userAuthentication
 
-import android.content.Context
 import android.os.Bundle
-import android.text.Editable
-import android.text.TextWatcher
-import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.widget.addTextChangedListener
+import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.empire.sente.databinding.FragmentBioInfoBinding
 import com.empire.sente.userAuthentication.Utils.TextWatchers.dayWatcher
 import com.empire.sente.userAuthentication.Utils.TextWatchers.monthWatcher
 import com.empire.sente.userAuthentication.Utils.TextWatchers.yearWatcher
 import com.empire.sente.userAuthentication.models.User
-import com.empire.sente.utils.ViewChanger
 
 class BioInfoFragment : Fragment() {
-    private lateinit var viewChanger: ViewChanger
     private lateinit var binding: FragmentBioInfoBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -58,7 +52,7 @@ class BioInfoFragment : Fragment() {
                     gender.toString(),
                     ""
                 )
-                viewChanger.fragmentTransaction(
+                findNavController().navigate(
                     BioInfoFragmentDirections.actionBioInfoFragmentToPhoneFragment(
                         user
                     )
@@ -78,14 +72,5 @@ class BioInfoFragment : Fragment() {
             }
 
         }
-    }
-
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-        viewChanger = context as ViewChanger
-    }
-
-    companion object {
-        const val TAG = "BIO_INFO_FRAGMENT"
     }
 }
