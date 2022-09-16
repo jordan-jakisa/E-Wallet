@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/phoneFragment"
-        android:name="com.empire.sente.userAuthentication.PhoneFragment"
+        android:name="com.empire.sente.userAuthentication.ui.phoneInput.PhoneFragment"
         android:label="fragment_phone"
         tools:layout="@layout/fragment_phone" >
         <action
@@ -27,16 +27,16 @@
     </fragment>
     <fragment
         android:id="@+id/bioInfoFragment"
-        android:name="com.empire.sente.userAuthentication.BioInfoFragment"
+        android:name="com.empire.sente.userAuthentication.ui.inputBioInfo.BioInfoFragment"
         android:label="fragment_bio_info"
-        tools:layout="@layout/fragment_bio_info" >
-        <action
-            android:id="@+id/action_bioInfoFragment_to_phoneFragment"
-            app:destination="@id/phoneFragment" />
+        tools:layout="@layout/fragment_bio_info">
+        <argument
+            android:name="phoneNumber"
+            app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/confirmLoginFragment"
-        android:name="com.empire.sente.userAuthentication.ConfirmLoginFragment"
+        android:name="com.empire.sente.userAuthentication.ui.confirmCode.ConfirmLoginFragment"
         android:label="fragment_confirm_login"
         tools:layout="@layout/fragment_confirm_login" >
         <action
@@ -51,6 +51,9 @@
         <argument
             android:name="phoneNumber"
             app:argType="string" />
+        <action
+            android:id="@+id/action_confirmLoginFragment_to_bioInfoFragment"
+            app:destination="@id/bioInfoFragment" />
     </fragment>
     <fragment
         android:id="@+id/dashboardFragment"

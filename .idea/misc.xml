@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Jordan/AndroidStudioProjects/EWallet/app/src/main/res/drawable/ic_menu.xml" value="0.2405" />
+        <entry key="..\:/Users/Jordan/AndroidStudioProjects/EWallet/app/src/main/res/drawable/translucent_bg.xml" value="0.2305" />
         <entry key="..\:/Users/Jordan/AndroidStudioProjects/EWallet/app/src/main/res/layout/activity_main.xml" value="0.2682291666666667" />
         <entry key="..\:/Users/Jordan/AndroidStudioProjects/EWallet/app/src/main/res/layout/fragment_bio_info.xml" value="0.2791666666666667" />
         <entry key="..\:/Users/Jordan/AndroidStudioProjects/EWallet/app/src/main/res/layout/fragment_confirm_login.xml" value="0.29322916666666665" />

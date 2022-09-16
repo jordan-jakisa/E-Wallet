@@ -4,15 +4,17 @@ import android.os.Parcel
 import android.os.Parcelable
 
 data class User(
-    val userId: String?,
-    val firstName: String?,
-    val lastName: String?,
-    val birthMonth: String?,
-    val birthDay: String?,
-    val birthYear: String?,
-    val gender: String?,
-    val phoneNumber: String?
-): Parcelable{
+    val userId: String? = "",
+    val firstName: String? = "",
+    val lastName: String? = "",
+    val birthMonth: String? = "",
+    val birthDay: String? = "",
+    val birthYear: String? = "",
+    val gender: String? = "",
+    val phoneNumber: String? = "",
+    val balance: String? = "",
+    val lastTransaction: String? = ""
+) : Parcelable {
     constructor(parcel: Parcel) : this(
         parcel.readString(),
         parcel.readString(),
@@ -21,9 +23,10 @@ data class User(
         parcel.readString(),
         parcel.readString(),
         parcel.readString(),
+        parcel.readString(),
+        parcel.readString(),
         parcel.readString()
-    ) {
-    }
+    )
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
         parcel.writeString(userId)
@@ -34,6 +37,8 @@ data class User(
         parcel.writeString(birthYear)
         parcel.writeString(gender)
         parcel.writeString(phoneNumber)
+        parcel.writeString(balance)
+        parcel.writeString(lastTransaction)
     }
 
     override fun describeContents(): Int {
@@ -49,5 +54,4 @@ data class User(
             return arrayOfNulls(size)
         }
     }
-
 }

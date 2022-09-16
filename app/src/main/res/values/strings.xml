@@ -15,8 +15,20 @@
     <string name="gender">Gender</string>
     <string name="basic_information">Basic information</string>
     <string name="enter_your_names_birthday_and_gender">Enter your names, birthday and gender</string>
-    <string name="country_code_uganda">+256</string>
+    <string name="country_code_uganda">🇺🇬 +256</string>
     <string name="verify">Verify</string>
-    <string name="a_confirmation_code_will_be_sent_to_this_phone_number_charges_may_apply">We will send an SMS with a confirmation code to your phone number</string>
+    <string name="a_confirmation_code_will_be_sent_to_this_phone_number_charges_may_apply">We will send an SMS with a confirmation code to your phone number.</string>
     <string name="confirmation_code">Confirmation Code</string>
+    <string name="let_s_roll">Let\'s Roll</string>
+    <string name="xxxxxx">xxxxxx</string>
+    <string name="please_wait">Please wait…</string>
+
+    <string name="error_requesting_code">Error requesting code. Please check your network and try again.</string>
+    <string name="phone_number_condition">Phone number must be 9 digits</string>
+    <string name="are_you_set_to_enter_a_world_of_easy_financial_management">Are you set to enter a world of easy financial management</string>
+    <string name="have_sent_code">We have sent an SMS with an activation code to your phone %1$s</string>
+    <string name="did_not_get_code">Did not get the code? </string>
+    <string name="resend">Resend</string>
+    <string name="code_has_been_resent">Code has been re-sent to your phone number</string>
+    <string name="code">Enter code…</string>
 </resources>

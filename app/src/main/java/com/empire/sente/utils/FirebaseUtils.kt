@@ -5,5 +5,5 @@ import com.google.firebase.database.FirebaseDatabase
 
 object FirebaseUtils {
     fun firebaseAuth() = FirebaseAuth.getInstance()
-    fun firebaseDatabase() = FirebaseDatabase.getInstance()
+    fun firebaseDatabase() = FirebaseDatabase.getInstance().reference
 }
